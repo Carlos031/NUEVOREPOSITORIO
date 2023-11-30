@@ -14,8 +14,8 @@
     <form action="/action_page.php">
    <fieldset>
    
-    <fieldset>
-        <legend><h2> <u>Informacion Basica</u> </h2></legend>
+    <fieldset class="informacion">
+        <legend ><h2> <u>Informacion Basica</u> </h2></legend>
      <label fort="Nombre">Nombre</label><br>
      <input type="text" id="Nombre" placeholder="Escribe tu nombre" size="100"><br>
      <label fort="Altura">Altura</label><br> 
@@ -27,7 +27,7 @@
     </fieldset>
 
      
-    <fieldset>
+    <fieldset class="Nacionalidad">
         <legend><h2> <u>Nacionalidad</u> </h2></legend>
      <input type="radio" name="Nacionalidad">Española
      <input type="radio" name="Nacionalidad">Comunitario(UE)
@@ -35,7 +35,7 @@
     </fieldset>
 
      
-   <fieldset>
+   <fieldset class="Estudios">
     <legend><h2> <u>Estudios</u> </h2></legend>
      <select name="" id="">
      <option value="">ESO</option>
@@ -46,7 +46,7 @@
    </fieldset>
 
      
-    <fieldset>
+    <fieldset class="Idiomas">
         <legend><h2> <u>Idiomas</u> </h2></legend>
      <input type="checkbox">Catalan
      <input type="checkbox">Castellano
@@ -54,9 +54,9 @@
      <input type="checkbox">Chino<br>
     </fieldset>
 
-     <fieldset>
-     <button type="submit">Enviar</button>
-     <button type="reset">Cancelar</button>
+     <fieldset class="botones">
+     <button type="submit" value="Enviar" name="" id="">Enviar</button>
+     <button type="reset" value="cancelar" name="" id="">Cancelar</button>
      </fieldset>
    </fieldset>
     </form>
