@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="uft-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-eqip="x-ua-compatible" content="ie-edge">
+    <meta name="viewport" content="width=device-width, initial-scalet=1.0">
     <title>Formulario</title>
     <link rel="stylesheet" type="text/css" href="../css/formulario.css">
 </head>
@@ -11,18 +11,18 @@
 <body>
     <h1>Curriculum</h1>
 
-    <form action="/action_page.php">
+    <form action="../PHP/form.php">
    <fieldset>
    
     <fieldset class="informacion">
         <legend ><h2> <u>Informacion Basica</u> </h2></legend>
-     <label fort="Nombre">Nombre</label><br>
-     <input type="text" id="Nombre" placeholder="Escribe tu nombre" size="100"><br>
-     <label fort="Altura">Altura</label><br> 
-     <input type="number" id="Altura" placeholder="Altura" size="40"><br>
-     <label fort="Mail">Mail</label><br>
+     <label>Nombre</label><br>
+     <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" size="100"><br>
+     <label>Altura</label><br> 
+     <input type="text" id="altura" Name="altura" placeholder="Altura" size="40"><br>
+     <label>Mail</label><br>
      <input type="text" id="Mail" placeholder="Escribe tu email@dominio.com" size="30"><br>
-     <label fort="Fecha de Nacimiento">Fecha de Nacimiento</label><br>
+     <label>Fecha de Nacimiento</label><br>
      <input type="date"><br>
     </fieldset>
 
@@ -37,7 +37,7 @@
      
    <fieldset class="Estudios">
     <legend><h2> <u>Estudios</u> </h2></legend>
-     <select name="" id="">
+     <select name="Estudios" id="Estudios">
      <option value="">ESO</option>
      <option value="">FP</option>
      <option value="">Bachi</option>
@@ -48,18 +48,20 @@
      
     <fieldset class="Idiomas">
         <legend><h2> <u>Idiomas</u> </h2></legend>
-     <input type="checkbox">Catalan
-     <input type="checkbox">Castellano
-     <input type="checkbox">Ingles
-     <input type="checkbox">Chino<br>
+     <input type="checkbox" name="idiomas">Catalan
+     <input type="checkbox" name="idiomas">Castellano
+     <input type="checkbox" name="idiomas">Ingles
+     <input type="checkbox" name="idiomas">Chino<br>
     </fieldset>
 
      <fieldset class="botones">
-     <button type="submit" value="Enviar" name="" id="">Enviar</button>
-     <button type="reset" value="cancelar" name="" id="">Cancelar</button>
+     <button type="submit" value="Enviar">Enviar</button>
+     <button type="reset" value="cancelar">Cancelar</button>
      </fieldset>
    </fieldset>
     </form>
+
+    <img src="../Imagenes/validador-formulario.PNG">
 
 </body>
 
