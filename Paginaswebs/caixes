@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head> <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scalet=1.0">
+    <link rel="stylesheet" href=" caixes.css">
+</head>
+
+<body>
+    <h1>Titol</h1><h3>Subtitol</h3>
+    <p>parrapagraf paadasd kj <strong>negreta</strong>afpi sd</p>
+    <div id="reduccio40"> <!-- caixa invisible--> 
+         <h2>examen a la segona hora</h2>    
+         <p class="margen10">Comença a les 17:15</p>
+    </div>
+    <div id="reduccio50"> <!--caixa invisible-->
+       <h2>La retsa del examne es fara dema</h2>
+       <p class="margen10">Els 2 ultims exercicis comencen a les 19:20</p>
+    </div>
+</body>
+</html>
+
+   
